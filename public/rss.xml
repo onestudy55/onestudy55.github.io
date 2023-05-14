@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 May 2023 12:32:22 GMT</lastBuildDate><item><title><![CDATA[사용자 로그 데이터를 활용한 개인 맞춤형 추천 알고리즘 구현하기]]></title><description><![CDATA[…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/second-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/second-post/</guid><pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;개인 맞춤형 추천 시스템은 사용자가 선호하는 제품을 추천하여 구매 확률을 높이는 등 비즈니스에서 매우 중요한 역할을 합니다. 그 중에서도 사용자 로그 데이터를 활용하는 방법은 많은 기업에서 활용하고 있습니다. 이번 글에서는 사용자 로그 데이터를 수집하고 분석하여 개인 맞춤형 추천 알고리즘을 구현하는 방법을 알아보겠습니다.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;사용자 로그 데이터 수집&lt;/h2&gt;
+&lt;p&gt;먼저, 추천 시스템을 구현하기 위해서는 사용자 로그 데이터를 수집해야 합니다. 사용자 로그 데이터는 사용자의 검색 키워드, 클릭 이력, 장바구니 등의 정보를 포함하며, 이를 수집하는 방법으로는 쿠키, 세션, 로그 파일 등을 활용할 수 있습니다.&lt;/p&gt;
+&lt;h2&gt;데이터 전처리&lt;/h2&gt;
+&lt;p&gt;수집된 사용자 로그 데이터를 바로 사용하기에는 문제가 많습니다. 따라서 데이터 전처리가 필요합니다. 데이터 전처리를 통해 데이터의 결측치, 이상치 등을 처리하고, 데이터의 형태를 일치시켜서 추후 분석에 용이하도록 합니다.&lt;/p&gt;
+&lt;h2&gt;추천 알고리즘 구현&lt;/h2&gt;
+&lt;p&gt;데이터 전처리가 끝나면 추천 알고리즘을 구현할 차례입니다. 추천 알고리즘에는 다양한 종류가 있지만, 여기에서는 협업 필터링(Collaborative Filtering) 방법을 사용하겠습니다. 협업 필터링은 사용자들의 구매 이력 등을 바탕으로 비슷한 취향의 사용자들을 찾아서 해당 사용자들이 선호하는 상품을 추천하는 방식입니다.&lt;/p&gt;
+&lt;h2&gt;추천 결과 제공&lt;/h2&gt;
+&lt;p&gt;추천 알고리즘을 구현하고 나면 추천 결과를 사용자에게 제공해야 합니다. 추천 결과는 웹 페이지, 모바일 앱 등에서 보여줄 수 있으며, 사용자가 실제로 구매한 상품을 바탕으로 추천한 결과를 보여주는 것이 좋습니다.&lt;/p&gt;
+&lt;h2&gt;마무리&lt;/h2&gt;
+&lt;p&gt;이번 글에서는 사용자 로그 데이터를 활용하여 개인 맞춤형 추천 알고리즘을 구현하는 방법에 대해서 알아보았습니다&lt;/p&gt;</content:encoded></item><item><title><![CDATA[머신 러닝을 활용한 이상치 탐지 기술]]></title><description><![CDATA[이상치(outliers…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/my-new-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/my-new-post/</guid><pubDate>Tue, 09 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;이상치(outliers)는 일반적인 데이터 패턴에서 벗어나는 데이터 포인트를 의미합니다. 이상치는 다양한 분야에서 문제를 발생시키며, 예를 들어 금융 분야에서는 사기 거래 탐지에 중요한 역할을 합니다. 이러한 이유로 이상치 탐지 기술은 매우 중요합니다.&lt;/p&gt;
+&lt;p&gt;머신 러닝 기술을 활용하면 이상치 탐지가 더욱 정확하고 효과적으로 이루어질 수 있습니다. 일반적으로 머신 러닝 기반 이상치 탐지 방법은 크게 두 가지로 분류됩니다.&lt;/p&gt;
+&lt;h1&gt;첫번째&lt;/h1&gt;
+&lt;p&gt;첫 번째는 기계 학습 알고리즘을 사용하여 데이터를 학습한 후, 이상치에 대한 확률을 계산하는 방법입니다. 예를 들어, 사기 거래를 탐지하기 위해 기계 학습 모델을 학습한 후, 새로운 거래가 이상치인지 아닌지를 예측할 수 있습니다.&lt;/p&gt;
+&lt;h1&gt;두번째&lt;/h1&gt;
+&lt;p&gt;두 번째는 이상치 탐지를 위해 특별히 설계된 기계 학습 알고리즘을 사용하는 방법입니다. 이러한 알고리즘은 데이터의 분포를 모델링하고 이 분포에서 벗어나는 데이터를 이상치로 판별합니다.&lt;/p&gt;
+&lt;p&gt;이상치 탐지를 위해 사용되는 머신 러닝 알고리즘에는 다양한 것이 있습니다. 대표적으로 One-Class SVM, Isolation Forest, Local Outlier Factor 등이 있습니다. 이러한 알고리즘은 각각의 특성과 데이터 분포에 따라 선택되어야 합니다.&lt;/p&gt;
+&lt;p&gt;머신 러닝을 활용한 이상치 탐지 기술은 기존의 이상치 탐지 방법보다 정확하고 효과적입니다. 이러한 기술은 금융 분야뿐만 아니라 다양한 분야에서 이용될 수 있으며, 더욱 발전할 것으로 기대됩니다.&lt;/p&gt;</content:encoded></item></channel></rss>
